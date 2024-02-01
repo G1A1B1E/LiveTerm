@@ -166,6 +166,9 @@ export const music = async (args: string[]): Promise<string> => {
   return 'Opening music';
 };
 
+export const test = async (args: string[]): Promise<string> => {
+  return `8_8`;
+};
 
 // Banner
 export const banner = (args?: string[]): string => {
@@ -175,3 +178,16 @@ Type "Help" for a List of avalible commands
  
 `;
 };
+
+//wow
+//this 
+//is 
+//very 
+//cool
+//im 
+//the 
+//best
+//coder
+//in
+//the
+//world
