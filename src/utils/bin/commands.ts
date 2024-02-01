@@ -160,7 +160,7 @@ export const jump = async (args: string[]): Promise<string> => {
   return `${config.jump}`;
 };
 
-export const linkedin = async (args: string[]): Promise<string> => {
+export const music = async (args: string[]): Promise<string> => {
   window.open(`https://g1a1b1e.github.io/music`);
 
   return 'Opening music';
