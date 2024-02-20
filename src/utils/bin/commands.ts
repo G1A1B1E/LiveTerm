@@ -166,8 +166,43 @@ export const music = async (args: string[]): Promise<string> => {
   return 'Opening music';
 };
 
+export const ogsite = async (args: string[]): Promise<string> => {
+  window.open(`https://g1a1b1e.github.io/`);
+
+  return 'Opening!';
+};
+
+export const ysmhl = async (args: string[]): Promise<string> => {
+  window.open(`https://github.com/YSMHL`);
+
+  return 'Opening!';
+};
+
+export const gasjholdingsgithub = async (args: string[]): Promise<string> => {
+  window.open(`https://github.com/GASJINC`);
+
+  return 'Opening!';
+};
+
+export const gasj = async (args: string[]): Promise<string> => {
+  window.open(`https://gasj.pages.dev/`);
+
+  return 'Opening!';
+};
+
 export const test = async (args: string[]): Promise<string> => {
   return `8_8`;
+};
+
+
+export const schoolunblock = async (args: string[]): Promise<string> => {
+  return `Coming soon, check music secret for now`;
+};
+
+export const howtouse = async (args: string[]): Promise<string> => {
+  return `This is my website, Gabe Macri, by typing help you 
+          can see a list of commands you can type out and see
+          what they can do, have fun!`;
 };
 
 // Banner
@@ -175,6 +210,8 @@ export const banner = (args?: string[]): string => {
   return `
 
 Type "Help" for a List of avalible commands 
+
+Or Type "howtouse" For a breif explanation
  
 `;
 };
